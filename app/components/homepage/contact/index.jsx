@@ -6,7 +6,6 @@ import { CiLocationOn } from "react-icons/ci";
 import { FaStackOverflow } from 'react-icons/fa';
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
-import ContactForm from './contact-form';
 
 function ContactSection() {
   return (
