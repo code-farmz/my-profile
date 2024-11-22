@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[907],{907:(t,a,e)=>{e.r(a),e.d(a,{default:()=>n});var l=e(5155),s=e(6223),u=e.n(s);let n=t=>{let{animationPath:a,width:e}=t;return(0,l.jsx)(u(),{loop:!0,autoplay:!0,animationData:a,style:{width:"95%"}})}}}]);
