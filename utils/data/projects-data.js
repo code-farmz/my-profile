@@ -1,62 +1,52 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
+
 
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-        image: crefin,
-    },
-    {
+        name: 'NG OTP INPUT(Open Source)',
+        description: "A fully customizable, one-time password input component for the web built with Angular.",
+        tools: ['Angular','HTML','CSS','TypeScript'],
+        role: 'Project Owner',
+        code: 'https://github.com/code-farmz/ng-otp-input',
+        demo: 'https://code-farmz.github.io/ng-otp-input',
+        image: '',
+    },{
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'EMH',
+        description: "The Engineering Management Hub (EMH) aims to provide an ERP-like capability for Engineering Management, facilitating better management of the ADM organizational unit through consistent, accurate, and readily available data. The system comprises key modules for managing employees, contracts, and skills. The Employees Module allows the management and viewing of engineering employees with additional information update options. The Contract Module is used for contract management and associated resources. The Skills Module helps employees manage and visualize their skills on radar charts, enabling skill comparisons with colleagues",
+        tools: ['Angular', '.Net Core', 'Bootstrap','Azure Pipelines','HTML','CSS','SQL'],
+        role: 'Full Stack Developer/Squad Lead',
         code: '',
         demo: '',
-        image: travel,
-    },
-    {
+        image: '',
+    },{
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'Shop Metrics',
+        description: "Shop Metrics is a comprehensive order management system tailored for sign-making companies. It allows users to log orders, manage branch-to-branch transfers, generate invoices, and process payments seamlessly using Stripe integration. The system features advanced graphical order tracking for real-time progress visualization. Additionally, it supports a dynamic tagging system, enabling the addition or removal of tags from orders for better organization. A robust permission module ensures secure and role-based access control, making it ideal for teams with varying levels of responsibility. Built with .NET Core and Angular, 'Shop Metrics' offers a modern, efficient, and user-friendly solution to streamline business operations.",
+        tools: ['Angular', '.Net Core', 'Bootstrap','Git hub actions','HTML','CSS','SQL'],
+        role: 'Full Stack Developer/Squad Lead',
         code: '',
-        role: 'Full Stack Developer',
         demo: '',
-        image: realEstate,
-    },
-    {
+        image: '',
+    },{
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'Survey Studio',
+        description: "The Survey project is a dynamic platform that facilitates the creation of versatile surveys with a variety of question types. It supports up to 16 different question types and allows for answer piping, enabling personalized survey experiences by injecting answers into subsequent questions. Additionally, the platform offers up to 3 levels of choice filtration, streamlining the survey process and ensuring relevant responses. With conditional logic, survey creators can display specific questions based on respondents' previous answers, enhancing interactivity and data quality. The platform also provides multi-lingual support to accommodate a global audience and allows for custom branding, ensuring a consistent and professional survey appearance. Overall, the Survey project empowers users to build engaging and tailored surveys for effective data collection and analysis.",
+        tools: ['Angular', '.Net Core', 'Bootstrap','HTML','CSS','SQL'],
+        role: 'Full Stack Developer',
         code: '',
         demo: '',
-        image: ayla,
+        image: '',
+    },{
+        id: 5,
+        name: 'Edualaya',
+        description: "It is an educational institute management application which standardize and automates process across a group of institutes. Architected as configurable and multi-tenant applications over ASP.NET Core.",
+        tools: ['Angular', '.Net Core', 'Bootstrap','HTML','CSS','SQL'],
         role: 'Full Stack Developer',
+        code: '',
+        demo: '',
+        image: '',
     }
 ];
 
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },
+0
