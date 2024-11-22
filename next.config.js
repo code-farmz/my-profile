@@ -1,6 +1,8 @@
 const path = require('path')
- 
+const isGithubPages = process.env.NODE_ENV === "production";
 module.exports = {
+  assetPrefix: isGithubPages ? '/my-profile/' : '',
+  basePath: isGithubPages ? '/my-profile' : '',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
